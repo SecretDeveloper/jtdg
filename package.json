@@ -1,0 +1,31 @@
+{
+  "name": "jtdg",
+  "version": "1.0.0",
+  "description": "Javascript port of the Test Data Generator library which uses a regular expression like syntax to create content.",
+  "main": "jTDG.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secretdeveloper/jtdg.git"
+  },
+  "keywords": [
+    "test",
+    "data",
+    "generator",
+    "generation",
+    "regular",
+    "expression",
+    "regex"
+  ],
+  "author": "Gary Kenneally (@SecretDeveloper)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/secretdeveloper/jtdg/issues"
+  },
+  "homepage": "https://github.com/secretdeveloper/jtdg#readme"
+}
