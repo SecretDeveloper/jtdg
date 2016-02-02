@@ -1,13 +1,13 @@
 {
   "name": "jtdg",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Javascript port of the Test Data Generator library which uses a regular expression like syntax to create content.",
   "main": "jTDG.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -C"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/secretdeveloper/jtdg/issues"
   },
-  "homepage": "https://github.com/secretdeveloper/jtdg#readme"
+  "homepage": "https://github.com/secretdeveloper/jtdg#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
